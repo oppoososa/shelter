@@ -220,13 +220,14 @@ html {
   line-height: 160%;
   color: #4c4c4c;
 }
-.pets_our {
+.pets {
   display: flex;
   flex-direction: column;
   max-width: 1280px;
   width: 100%;
   min-height: 877px;
   height: 100%;
+  background-color: #f6f6f6;
 }
 .friends {
   margin-left: auto;
@@ -301,7 +302,7 @@ html {
   margin-bottom: auto;
   height: 52px;
   width: 52px;
-  background-color: #ffffff;
+  background-color: #f6f6f6;
   border: 2px solid #f1cdb3;
   border-radius: 100px;
 }
@@ -313,7 +314,7 @@ html {
   margin-bottom: auto;
   height: 52px;
   width: 52px;
-  background-color: #ffffff;
+  background-color: #f6f6f6;
   border: 2px solid #f1cdb3;
   border-radius: 100px;
 }
@@ -361,7 +362,8 @@ html {
 }
 .list_help {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
   flex-wrap: wrap;
   max-width: 1026px;
   width: 100%;
@@ -374,12 +376,49 @@ html {
   flex-direction: column;
   width: auto;
   height: 113px;
+  margin-left: 119px;
 }
-.petimg {
-  width: 47.68px;
-  height: 60px;
+.petfood:first-child {
+  margin-left: 0px;
+}
+.petimg_1 {
+  align-self: center;
+  width: 47.86px;
+}
+.petimg_2 {
+  align-self: center;
+  width: 59.95px;
+}
+.petimg_3 {
+  align-self: center;
+  width: 60px;
+}
+.petimg_4 {
+  align-self: center;
+  width: 60px;
+}
+.petimg_5 {
+  align-self: center;
+  width: 31.3px;
+}
+.petimg_6 {
+  align-self: center;
+  width: 60px;
+}
+.petimg_7 {
+  align-self: center;
+  width: 60px;
+}
+.petimg_8 {
+  align-self: center;
+  width: 60px;
+}
+.petimg_9 {
+  align-self: center;
+  width: 56.29px;
 }
 .pet_p {
+  align-self: center;
   font-family: "Georgia_reg";
   font-style: normal;
   font-weight: 400;
