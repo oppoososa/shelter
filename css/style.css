@@ -652,7 +652,6 @@ html {
   height: 32px;
   display: flex;
   flex-direction: row;
-  margin-top: 32px;
 }
 .footer_puppy {
   width: 300px;
