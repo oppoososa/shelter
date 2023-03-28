@@ -302,6 +302,7 @@ html {
 .batton_arrow_l {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: auto;
   margin-right: 53px;
   margin-bottom: auto;
@@ -314,6 +315,7 @@ html {
 .batton_arrow_r {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: auto;
   margin-left: 53px;
   margin-bottom: auto;
@@ -524,4 +526,141 @@ html {
   color: #b2b2b2;
   font-size: 12px;
   line-height: 18px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  width: 100%;
+  min-height: 350px;
+  background: radial-gradient(100% 215.42% at 0% 0%, #513d2f 0%, #1a1a1c 100%),
+    #211f20;
+  background-image: url("/img/start-screen-gradient-background.png");
+  padding: 40px 40px 0 40px;
+}
+.footer_contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 278px;
+  width: 100%;
+  min-height: 234px;
+  margin-bottom: 60px;
+  margin-right: 161px;
+}
+.contact_title {
+  font-family: "Georgia_reg";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin: 0px;
+}
+.contact_mail {
+  display: flex;
+  flex-direction: row;
+  width: 251px;
+  height: 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.icon_mail {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 40px;
+  height: 26px;
+}
+.p_contact {
+  font-family: "Georgia_reg";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #f1cdb3;
+  align-self: center;
+  margin-left: 20px;
+}
+.contact_phone {
+  display: flex;
+  flex-direction: row;
+  width: 239px;
+  height: 32px;
+  margin-bottom: 60px;
+}
+.icon_contact {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 40px;
+  height: 32px;
+}
+.p_phone {
+  font-family: "Georgia_reg";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #f1cdb3;
+  align-self: center;
+  margin-left: 20px;
+}
+.footer_location {
+  display: flex;
+  flex-direction: column;
+  width: 302px;
+  height: 234px;
+}
+.location {
+  font-family: "Georgia_reg";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin: 0;
+}
+.footer_boston {
+  display: flex;
+  flex-direction: row;
+  margin-top: 34px;
+  margin-bottom: 32px;
+  width: 302px;
+  height: 46px;
+}
+.icon_location {
+  width: 22px;
+  height: 32px;
+  align-self: center;
+  margin-right: 20px;
+}
+.p_location {
+  font-family: "Georgia_reg";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #f1cdb3;
+  align-self: center;
+}
+.footer_london {
+  width: 302px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+}
+.footer_puppy {
+  width: 300px;
+  height: 310px;
+  margin-left: 159px;
+  margin-top: 43px;
+}
+.str_arrow {
+  width: 14px;
+  height: 6px;
 }
