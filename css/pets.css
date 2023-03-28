@@ -1,0 +1,22 @@
+.card:nth-last-child(2) {
+  margin-right: 15px;
+}
+.card {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.pets_slider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 435px;
+}
+.li_item:nth-last-child(3) {
+  border-bottom: solid 3px #f1cdb3;
+}
+.li_item:nth-last-child(4) {
+  border-bottom: 0px;
+}
