@@ -450,7 +450,7 @@ html {
   width: 100%;
   min-height: 462px;
   background-color: #f6f6f6;
-  padding: 80px 182px 100px 183px;
+  padding: 6% 10%;
 }
 .donation_dog {
   max-width: 505px;
@@ -463,7 +463,8 @@ html {
   max-width: 380px;
   width: 50%;
   min-height: 282px;
-  margin-left: 30px;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 .don_head {
   font-family: "Georgia_reg";
@@ -672,6 +673,10 @@ html {
   margin-top: 20%;
 }
 @media (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
   .about_pets {
     margin-left: auto;
     margin-right: auto;
@@ -738,10 +743,9 @@ html {
     justify-content: space-between;
   }
   .donation {
-    padding: 10% 10% 10% 10%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
     max-width: 768px;
     width: 100%;
     min-height: 783px;
@@ -749,7 +753,8 @@ html {
   .donation_dog {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    order: 2;
+
     width: 100%;
   }
   .dog_big {
@@ -766,6 +771,8 @@ html {
     margin-top: 3%;
   }
   .donation_content {
+    flex-direction: column;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -794,14 +801,17 @@ html {
     margin-right: auto;
     width: 100%;
     max-width: 300px;
-   
-    
   }
   .footer_img {
     margin-top: 0;
     width: 100%;
-
   }
   .pets_content {
-   
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .legal_inform {
+    width: 100%;
+    height: 10%;
+  }
 }
