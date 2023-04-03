@@ -32,6 +32,7 @@
   border-radius: 100px;
   cursor: pointer;
 }
+
 .cozy_logo {
   color: #545454;
 }
@@ -46,6 +47,7 @@
   width: 340px;
   text-align: center;
 }
+
 .button_checked {
   background-color: #f1cdb3;
 }
@@ -78,3 +80,4 @@
     width: 90%;
   }
 }
+
