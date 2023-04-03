@@ -32,6 +32,12 @@
   border-radius: 100px;
   cursor: pointer;
 }
+.cozy_logo {
+  color: #545454;
+}
+.cozysub {
+  color: #292929;
+}
 .navigation_pets {
   display: flex;
   justify-content: space-between;
@@ -39,4 +45,25 @@
   margin: 60px 430px 100px;
   width: 340px;
   text-align: center;
+}
+.button_checked {
+  background-color: #f1cdb3;
+}
+.header {
+  margin-bottom: 10%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .pets_slider {
+    justify-content: center;
+  }
+  .navigation_pets {
+  }
+  .pets {
+    align-items: center;
+  }
 }
