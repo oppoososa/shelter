@@ -67,3 +67,14 @@
     align-items: center;
   }
 }
+@media (max-width: 320px) {
+  .pets {
+    margin-top: 30%;
+  }
+  .card {
+    margin-bottom: 15%;
+  }
+  .navigation_pets {
+    width: 90%;
+  }
+}
